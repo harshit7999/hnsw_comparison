@@ -1,0 +1,53 @@
+{
+    "run_count": 3,
+    "models": [
+      "faiss_hnsw",
+      "hnsw_lib",
+      "nmslib_hnsw"
+    ],
+    "dataset_params": [
+      { "dim": 100, "num_vectors": 10000 },
+      { "dim": 100, "num_vectors": 50000 },
+      { "dim": 100, "num_vectors": 100000 },
+      { "dim": 100, "num_vectors": 500000 },
+  
+      { "dim": 200, "num_vectors": 10000 },
+      { "dim": 200, "num_vectors": 50000 },
+      { "dim": 200, "num_vectors": 100000 },
+      { "dim": 200, "num_vectors": 500000 },
+  
+      { "dim": 300, "num_vectors": 10000 },
+      { "dim": 300, "num_vectors": 50000 },
+      { "dim": 300, "num_vectors": 100000 },
+      { "dim": 300, "num_vectors": 500000 },
+  
+      { "dim": 500, "num_vectors": 10000 },
+      { "dim": 500, "num_vectors": 50000 },
+      { "dim": 500, "num_vectors": 100000 },
+      { "dim": 500, "num_vectors": 500000 }
+    ],
+    "model_params": [
+      { "ef_construction": 50, "M": 8 },
+      { "ef_construction": 50, "M": 12 },
+      { "ef_construction": 50, "M": 16 },
+      { "ef_construction": 50, "M": 32 },
+  
+      { "ef_construction": 100, "M": 8 },
+      { "ef_construction": 100, "M": 12 },
+      { "ef_construction": 100, "M": 16 },
+      { "ef_construction": 100, "M": 32 },
+  
+      { "ef_construction": 150, "M": 8 },
+      { "ef_construction": 150, "M": 12 },
+      { "ef_construction": 150, "M": 16 },
+      { "ef_construction": 150, "M": 32 },
+  
+      { "ef_construction": 300, "M": 8 },
+      { "ef_construction": 300, "M": 12 },
+      { "ef_construction": 300, "M": 16 },
+      { "ef_construction": 300, "M": 32 }
+    ],
+    "query_params": [
+      { "num_queries_percent": 10, "k": 10 }
+    ]
+  }
