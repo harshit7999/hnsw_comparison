@@ -29,13 +29,32 @@ This benchmark compares popular HNSW implementations across multiple dimensions:
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/harshit7999/hnsw_comparison.git
+git clone <repository-url>
 cd hnsw_comparison
 ```
 
-2. **Install dependencies**:
+2. **Create and activate a virtual environment**:
+```bash
+# Using venv (recommended)
+python -m venv venv
+
+# Activate on macOS/Linux
+source venv/bin/activate
+
+# Activate on Windows
+venv\Scripts\activate
+```
+
+3. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
+```
+
+**Note**: Always activate your virtual environment before running the benchmark:
+```bash
+source venv/bin/activate  # macOS/Linux
+# or
+venv\Scripts\activate     # Windows
 ```
 
 ## 🚀 Quick Start
