@@ -29,7 +29,7 @@ This benchmark compares popular HNSW implementations across multiple dimensions:
 
 1. **Clone the repository**:
 ```bash
-git clone <repository-url>
+git clone https://github.com/harshit7999/hnsw_comparison.git
 cd hnsw_comparison
 ```
 
