@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 def run_benchmark(model_type, dataset_params, model_params, query_params):
-    """Run benchmark with comprehensive error handling."""
+    """Run benchmark"""
     
     try:
         logger.info(f"Starting benchmark for {model_type}")
